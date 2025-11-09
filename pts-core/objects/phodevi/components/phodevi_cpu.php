@@ -1412,7 +1412,7 @@ class phodevi_cpu extends phodevi_device_interface
 		{
 			$amd_map[26][$i] = 'Zen 6';
 		}
-		for($i = 144; $i <= 175; $i++)
+		for($i = 128; $i <= 175; $i++)
 		{
 			$amd_map[26][$i] = 'Zen 6';
 		}

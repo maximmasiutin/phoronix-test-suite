@@ -45,7 +45,7 @@
 		</Package>
 		<Package>
 			<GenericName>pcre</GenericName>
-			<PackageName>pcre-devel</PackageName>
+			<PackageName>pcre2-devel</PackageName>
 		</Package>
 		<Package>
 			<GenericName>libpng-development</GenericName>
