@@ -104,6 +104,7 @@ class pts_webui_tests implements pts_webui_interface
 		$tests_to_show = array_unique($tests_to_show);
 		usort($tests_to_show, array('pts_webui_tests', 'cmp_result_object_sort'));
 		$category = null;
+		$popularity_index = array();
 		foreach($tests_to_show as &$test_profile)
 		{
 			if($category != $test_profile->get_test_hardware_type())
@@ -114,7 +115,7 @@ class pts_webui_tests implements pts_webui_interface
 			}
 
 			$last_updated = pts_openbenchmarking_client::read_repository_test_profile_attribute($test_profile, 'last_updated');
-			$popularity = array_search($test_profile->get_identifier(false), $popularity_index);
+			$popularity = !empty($popularity_index) ? array_search($test_profile->get_identifier(false), $popularity_index) : 9999;
 			$secondary_message = null;
 
 			if($last_updated > (time() - (60 * 60 * 24 * 21)))

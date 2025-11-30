@@ -1385,6 +1385,7 @@ class phodevi_cpu extends phodevi_device_interface
 				162 => 'Zen 4',
 				163 => 'Zen 4',
 				164 => 'Zen 4',
+				128 => 'Zen 4',
 				165 => 'Zen 4',
 				166 => 'Zen 4',
 				167 => 'Zen 4',

@@ -583,7 +583,7 @@ class pts_strings
 	public static function result_quantifier_to_string($quantifier)
 	{
 		$quantifiers = array('MAX' => 'Maximum', 'MIN' => 'Minimum', 'NULL' => null, 'AVG' => 'Average');
-		return isset($quantifiers[$quantifier]) ? $quantifiers[$quantifier] : 'Average';
+		return !empty($quantifier) && isset($quantifiers[$quantifier]) ? $quantifiers[$quantifier] : 'Average';
 	}
 	public static function format_time($time, $input_format = 'SECONDS', $standard_version = true, $round_to = 0)
 	{

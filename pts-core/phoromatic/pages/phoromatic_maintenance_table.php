@@ -43,6 +43,7 @@ class phoromatic_maintenance_table implements pts_webui_interface
 		$stmt = phoromatic_server::$db->prepare('SELECT Title, SystemID, Hardware, Software, ClientVersion, LastIP, NetworkMAC, LastCommunication, CurrentTask, CoreVersion, NetworkWakeOnLAN, BlockPowerOffs FROM phoromatic_systems WHERE AccountID = :account_id AND State >= 0 ORDER BY LastCommunication DESC');
 		$stmt->bindValue(':account_id', $_SESSION['AccountID']);
 		$result = $stmt->execute();
+		$components = array();
 
 		while($row = $result->fetchArray())
 		{

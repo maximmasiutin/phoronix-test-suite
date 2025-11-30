@@ -40,6 +40,7 @@ class phoromatic_sched implements pts_webui_interface
 			return;
 
 		$is_new = true;
+		$e_schedule = array();
 		$env_var_edit = array();
 		if(!empty($PATH[0]) && is_numeric($PATH[0]))
 		{

@@ -60,57 +60,6 @@ class phoromatic_tests implements pts_webui_interface
 			{
 				$main .= '<p>No results found on this Phoromatic Server for the ' . $tp->get_title() . ' test profile.</p>';
 			}
-			else if(false) // previously: $recent_result_count > 5 TODO broken
-			{
-				// TODO XXX below code is borked
-				$stmt = phoromatic_server::$db->prepare('SELECT UploadID, SystemID, UploadTime FROM phoromatic_results WHERE AccountID = :account_id AND UploadID IN (SELECT DISTINCT UploadID FROM phoromatic_results_results WHERE AccountID = :account_id AND TestProfile LIKE :tp) ORDER BY UploadTime DESC LIMIT 1000');
-				$stmt->bindValue(':account_id', $_SESSION['AccountID']);
-				$stmt->bindValue(':tp', $tp_identifier . '%');
-				$result = $stmt->execute();
-				$recent_result_count = 0;
-				$result_file = new pts_result_file(null, true);
-				while($result && $row = $result->fetchArray())
-				{
-					$composite_xml = phoromatic_server::phoromatic_account_result_path($_SESSION['AccountID'], $row['UploadID']) . 'composite.xml';
-					if(!is_file($composite_xml))
-					{
-						continue;
-					}
-
-					// Add to result file
-					$system_name = strtotime($row['UploadTime']) . ': ' . phoromatic_server::system_id_to_name($row['SystemID']);
-					$sub_result_file = new pts_result_file($composite_xml, true);
-					foreach($sub_result_file->get_result_objects() as $obj)
-					{
-						if($obj->test_profile->get_identifier(false) == $tp_identifier)
-						{
-							$obj->test_result_buffer->rename(null, $system_name);
-							$result_file->add_result($obj);
-						}
-					}
-				}
-
-				$table = null;
-				$extra_attributes = array('multi_way_comparison_invert_default' => false);
-				$f = false;
-				foreach($result_file->get_result_objects() as $obj)
-				{
-					$obj->test_profile->set_display_format('SCATTER_PLOT');
-
-					foreach($obj->test_result_buffer->buffer_items as $i => &$item)
-					{
-						if(!is_numeric(substr($item->get_result_identifier(), 0, strpos($item->get_result_identifier(), ':'))))
-						{
-							unset($obj->test_result_buffer->buffer_items[$i]);
-						}
-					}
-
-					$result_file = null;
-					$main .= '<p align="center">' . pts_render::render_graph_inline_embed($obj, $result_file, $extra_attributes) . '</p>';
-				}
-
-
-			}
 		}
 		else
 		{

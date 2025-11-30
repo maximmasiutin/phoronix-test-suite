@@ -260,6 +260,7 @@ function phoromatic_tracker_page_relevant()
 function phoromatic_webui_header_logged_in()
 {
 	$html_links = array();
+	$pages = array();
 	if($_SESSION['AdminLevel'] == -40)
 	{
 		$pages = array('Admin', 'Admin_Config', 'Admin_Data', 'Logout');
