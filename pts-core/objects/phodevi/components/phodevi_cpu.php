@@ -847,8 +847,20 @@ class phodevi_cpu extends phodevi_device_interface
 						case '0xd89':
 							$new_info .= ' Cortex-A720E';
 							break;
+						case '0xd8a':
+							$new_info .= ' C1-Nano';
+							break;
+						case '0xd8b':
+							$new_info .= ' C1-Pro';
+							break;
+						case '0xd8c':
+							$new_info .= ' C1-Ultra';
+							break;
 						case '0xd8e':
 							$new_info .= ' Neoverse-N3';
+							break;
+						case '0xd90':
+							$new_info .= ' C1-Premium';
 							break;
 					}
 				}

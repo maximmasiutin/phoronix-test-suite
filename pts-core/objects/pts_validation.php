@@ -373,6 +373,7 @@ class pts_validation
 			$min_value = -1;
 			$max_value = -1;
 			$type_restrict = null;
+			$type = null;
 			if($node->get_input_type_restrictions() != null)
 			{
 				$type = $node->get_input_type_restrictions();
@@ -622,6 +623,7 @@ class pts_validation
 		{
 			$name = $el->getAttribute('name');
 			$value = null;
+			$val = null;
 			$get_api = null;
 			$set_api = null;
 			$default_value = null;

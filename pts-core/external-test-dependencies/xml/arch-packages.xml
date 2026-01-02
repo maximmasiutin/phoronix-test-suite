@@ -84,7 +84,7 @@
 		</Package>
 		<Package>
 			<GenericName>java</GenericName>
-			<PackageName>jdk11-openjdk</PackageName>
+			<PackageName>jdk21-openjdk</PackageName>
 		</Package>
 		<Package>
 			<GenericName>maven</GenericName>

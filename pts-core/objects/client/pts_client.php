@@ -3,8 +3,8 @@
 /*
 	Phoronix Test Suite
 	URLs: http://www.phoronix.com, http://www.phoronix-test-suite.com/
-	Copyright (C) 2008 - 2024, Phoronix Media
-	Copyright (C) 2008 - 2024, Michael Larabel
+	Copyright (C) 2008 - 2026, Phoronix Media
+	Copyright (C) 2008 - 2026, Michael Larabel
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -2184,6 +2184,16 @@ class pts_client
 		}
 
 		return false;
+	}
+	public static function trigger_error_once($message, $e)
+	{
+		static $errors_triggered = array();
+		if($message && in_array($message, $errors_triggered))
+		{
+			return;
+		}
+		trigger_error($message, $e);
+		$errors_triggered[] = $message;
 	}
 	public static function code_error_handler($error_code, $error_string, $error_file, $error_line)
 	{

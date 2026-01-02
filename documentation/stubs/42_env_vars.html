@@ -50,6 +50,10 @@ The variable is relevant for: test execution / benchmarking.
 <p>The value can be of type: string.
 The variable is relevant for: result output generation.
 </p>
+<h2>HOST_EXTRA_COMPATIBLE_ARCH</h2>
+<p><em>This option allows to specify additional architecture support from host machine to being able to install tests that supports specific architectures only. It can be useful in systems where is available an user-space emulator (e.g. FEX-EMU for x86_64 applications on aarch64) to run binary tests that cannot be compiled natively.</em></p>
+<p>The value can be of type: string.
+</p>
 <h2>IGNORE_RUNS</h2>
 <p><em>This option can be used if wanting the Phoronix Test Suite to automatically toss out a specified result position when running a test profile multiple times. E.g. setting this value to 1 will toss out automatically the first run of each test profile or a value of 3 will toss out the third run of a given test. This overrides the IgnoreRuns option also available to individual test profiles. Multiple values for runs to ignore can be specified by delimiting with a comma.</em></p>
 <p>The value can be of type: string.

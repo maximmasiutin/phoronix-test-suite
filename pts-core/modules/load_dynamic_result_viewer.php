@@ -89,7 +89,8 @@ class load_dynamic_result_viewer extends pts_module_interface
 						{
 							if(pts_client::executable_in_path('kill'))
 							{
-								shell_exec('kill -9 ' . basename($proc));
+								$hide_errors = is_file('/dev/null') ? ' 2>/dev/null' : '';
+								shell_exec('kill -9 ' . basename($proc) . $hide_errors);
 							}
 							if(function_exists('posix_kill'))
 							{

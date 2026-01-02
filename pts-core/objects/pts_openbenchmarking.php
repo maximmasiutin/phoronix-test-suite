@@ -3,8 +3,8 @@
 /*
 	Phoronix Test Suite
 	URLs: http://www.phoronix.com, http://www.phoronix-test-suite.com/
-	Copyright (C) 2010 - 2023, Phoronix Media
-	Copyright (C) 2010 - 2023, Michael Larabel
+	Copyright (C) 2010 - 2026, Phoronix Media
+	Copyright (C) 2010 - 2026, Michael Larabel
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -1040,12 +1040,27 @@ class pts_openbenchmarking
 						// Grep to see if the version passed was e.g. 1.3 instead of 1.3.3
 						$versions = $repo_index['tests'][$test]['versions'];
 						sort($versions);
+						$matched_at_root = false;
 						foreach(array_reverse($versions) as $check_version)
 						{
-							if(strstr($check_version, $version) != false)
+							// First check to see if the version slug matches at start of string...
+							if(strpos($check_version, $version) === 0)
 							{
 								$version = $check_version;
+								$matched_at_root = true;
 								break;
+							}
+						}
+						if($matched_at_root == false)
+						{
+							// Otherwise check to see if version slug matches anywhere in string...
+							foreach(array_reverse($versions) as $check_version)
+							{
+								if(strstr($check_version, $version) != false)
+								{
+									$version = $check_version;
+									break;
+								}
 							}
 						}
 					}
@@ -1087,7 +1102,7 @@ class pts_openbenchmarking
 			}
 			if(is_array($repo_index) && isset($repo_index['suites'][$test]) && self::check_only_type_compare($check_only_type, 'suite'))
 			{
-				// The test profile at least exists
+				// The test suite at least exists
 
 				// Looking for a particular test profile version?
 				if($version != null)
@@ -1097,12 +1112,27 @@ class pts_openbenchmarking
 						// Grep to see if the version passed was e.g. 1.3 instead of 1.3.3
 						$versions = $repo_index['suites'][$test]['versions'];
 						sort($versions);
+						$matched_at_root = false;
 						foreach(array_reverse($versions) as $check_version)
 						{
-							if(strstr($check_version, $version) != false)
+							// First check to see if the version slug matches at start of string...
+							if(strpos($check_version, $version) === 0)
 							{
 								$version = $check_version;
+								$matched_at_root = true;
 								break;
+							}
+						}
+						if($matched_at_root == false)
+						{
+							// Otherwise check to see if version slug matches anywhere in string...
+							foreach(array_reverse($versions) as $check_version)
+							{
+								if(strstr($check_version, $version) != false)
+								{
+									$version = $check_version;
+									break;
+								}
 							}
 						}
 					}

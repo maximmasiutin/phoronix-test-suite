@@ -3,8 +3,8 @@
 /*
 	Phoronix Test Suite
 	URLs: http://www.phoronix.com, http://www.phoronix-test-suite.com/
-	Copyright (C) 2010 - 2020, Phoronix Media
-	Copyright (C) 2010 - 2020, Michael Larabel
+	Copyright (C) 2010 - 2026, Phoronix Media
+	Copyright (C) 2010 - 2026, Michael Larabel
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -23,6 +23,7 @@
 class pts_external_dependencies
 {
 	protected static $logger = null;
+	protected static $additional_messages = null;
 
 	public static function packages_that_provide($file)
 	{
@@ -43,6 +44,10 @@ class pts_external_dependencies
 			$provides = self::check_dependencies_missing_from_system($f, $t, $x);
 		}
 		return !empty($provides) && is_array($provides) ? $provides : false;
+	}
+	public static function add_user_message($msg)
+	{
+		self::$additional_messages = $msg;
 	}
 	public static function startup_handler()
 	{
@@ -182,6 +187,13 @@ class pts_external_dependencies
 		}
 
 		$dependencies_to_install = array_unique($dependencies_to_install);
+
+		if(!empty(self::$additional_messages))
+		{
+			pts_client::trigger_error_once(self::$additional_messages, E_USER_WARNING);
+			self::$logger->log(self::$additional_messages);
+			self::$additional_messages = null;
+		}
 
 		// Do the actual dependency install process
 		if(count($dependencies_to_install) > 0)

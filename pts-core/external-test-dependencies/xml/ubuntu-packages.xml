@@ -225,7 +225,7 @@
 		</Package>
 		<Package>
 			<GenericName>atlas-development</GenericName>
-			<PackageName>libatlas-base-dev</PackageName>
+			<PackageName>libatlas3-base</PackageName>
 		</Package>
 		<Package>
 			<GenericName>openmpi-development</GenericName>

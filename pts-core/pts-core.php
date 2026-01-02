@@ -3,8 +3,8 @@
 /*
 	Phoronix Test Suite
 	URLs: http://www.phoronix.com, http://www.phoronix-test-suite.com/
-	Copyright (C) 2008 - 2024, Phoronix Media
-	Copyright (C) 2008 - 2024, Michael Larabel
+	Copyright (C) 2008 - 2026, Phoronix Media
+	Copyright (C) 2008 - 2026, Michael Larabel
 	pts-core.php: To boot-strap the Phoronix Test Suite start-up
 
 	This program is free software; you can redistribute it and/or modify
@@ -228,9 +228,9 @@ function pts_needed_extensions()
 		);
 }
 
-pts_define('PTS_VERSION', '10.8.5');
-pts_define('PTS_CORE_VERSION', 10850);
-pts_define('PTS_RELEASE_DATE', '20240324');
+pts_define('PTS_VERSION', '10.8.6');
+pts_define('PTS_CORE_VERSION', 10860);
+pts_define('PTS_RELEASE_DATE', '20260101');
 pts_define('PTS_CODENAME', 'Nesseby');
 
 pts_define('PTS_IS_CLIENT', (defined('PTS_MODE') && strstr(PTS_MODE, 'CLIENT') !== false));

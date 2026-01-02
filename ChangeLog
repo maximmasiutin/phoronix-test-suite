@@ -1,5 +1,11 @@
 PHORONIX TEST SUITE CHANGE-LOG
 
+Phoronix Test Suite 10.8.6
+[GIT]
+
+pts-core: Various fixes, including PHP 8.4 warning fixes
+phodevi: Various fixes / detection improvements
+
 Phoronix Test Suite 10.8.5
 [GIT]
 

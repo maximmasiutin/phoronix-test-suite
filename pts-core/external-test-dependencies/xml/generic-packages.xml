@@ -294,7 +294,7 @@
 			<GenericName>curl</GenericName>
 			<Title>Curl</Title>
 			<PossibleNames>curl, libcurl3, libcurl</PossibleNames>
-			<FileCheck>libcurl.so.3 OR libcurl.so.4 OR libcurl.so, curl</FileCheck>
+			<FileCheck>libcurl.so.3 OR libcurl.so.4 OR libcurl.so, curl, curl/curl.h</FileCheck>
 		</Package>
 		<Package>
 			<GenericName>fftw3-development</GenericName>

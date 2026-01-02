@@ -3,8 +3,8 @@
 /*
 	Phoronix Test Suite
 	URLs: http://www.phoronix.com, http://www.phoronix-test-suite.com/
-	Copyright (C) 2015 - 2020, Phoronix Media
-	Copyright (C) 2015 - 2020, Michael Larabel
+	Copyright (C) 2015 - 2026, Phoronix Media
+	Copyright (C) 2015 - 2026, Michael Larabel
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -28,6 +28,12 @@ class ubuntu_dependency_handler implements pts_dependency_handler
 	}
 	public static function what_provides($files_needed)
 	{
+		if(!pts_client::executable_in_path('apt-file'))
+		{
+			pts_external_dependencies::add_user_message('If the apt-file command is present on the system it can better evaluate possible dependencies.');
+			return array();
+		}
+
 		$packages_needed = array();
 		foreach(pts_arrays::to_array($files_needed) as $file)
 		{

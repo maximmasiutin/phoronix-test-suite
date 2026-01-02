@@ -216,7 +216,7 @@
 <p>This option allows you to specify a result as a baseline (first parameter) and a second result file (second parameter) that will offer some analysis for showing how the second result compares to the first in matching tests.</p>
 <h3>compare-results-two-way<em>  [Test Result]</em>
 </h3>
-<p>This option will allows you to specify a result file and from there to compare two individual runs within that result file for looking at wins/losses and other metrics in a head-to-head type comparison.</p>
+<p>This option allows you to specify a result file and from there to compare two individual runs within that result file for looking at wins/losses and other metrics in a head-to-head type comparison.</p>
 <h3>edit-result-file<em>  [Test Result]</em>
 </h3>
 <p>This option is used if you wish to edit the title and description of an existing result file.</p>
@@ -232,6 +232,9 @@
 <h3>prune-empty-results<em>  [Test Result]</em>
 </h3>
 <p>This option is used if there are test results (benchmarks) to be dropped from a given result file that had no successful runs. I.e. if any run attempt(s) only errored out without producing any result for any of the test run(s) saved in that file. The user must specify a saved results file.</p>
+<h3>prune-extra-data<em>  [Test Result]</em>
+</h3>
+<p>This option is used to remove any extra/erroneous data from appearing if any duplicate result entries or other data appears within a saved result file. This option is typically only used for testing or encountering any errored result files.</p>
 <h3>prune-zero-data<em>  [Test Result]</em>
 </h3>
 <p>This option is used if there are test results (benchmarks) to be where there is line graph data that currently has zero values (e.g. inaccurate/invalid sensor readings) and you wish to just drop those zero reading values from the result file.</p>

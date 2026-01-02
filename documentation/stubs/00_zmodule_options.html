@@ -74,7 +74,7 @@
 <p><strong>phoronix-test-suite results_custom_export.nf</strong></p>
 <h2>System Monitor</h2>
 <p>This module contains sensor monitoring support.</p>
-<p>This module utilizes the following environment variables: MONITOR, PERFORMANCE_PER_WATT, PERFORMANCE_PER_SENSOR, MONITOR_INTERVAL, MONITOR_PER_RUN.</p>
+<p>This module utilizes the following environment variables: MONITOR, PERFORMANCE_PER_WATT, PERFORMANCE_PER_SENSOR, MONITOR_INTERVAL.</p>
 <p>Monitoring these sensors is as easy as running your normal Phoronix Test Suite commands but at the beginning of the command add: MONITOR=&lt;selected sensors&gt;.  For example, this will monitor the CPU temperature and voltage during tests: 
 
     MONITOR=cpu.temp,cpu.voltage phoronix-test-suite benchmark universe
@@ -108,6 +108,14 @@ Supported Options:
   - cpu.freq.cpu13
   - cpu.freq.cpu14
   - cpu.freq.cpu15
+  - cpu.freq.cpu16
+  - cpu.freq.cpu17
+  - cpu.freq.cpu18
+  - cpu.freq.cpu19
+  - cpu.freq.cpu20
+  - cpu.freq.cpu21
+  - cpu.freq.cpu22
+  - cpu.freq.cpu23
   - cpu.peak-freq
   - cpu.power
   - cpu.temp
@@ -129,6 +137,14 @@ Supported Options:
   - cpu.usage.cpu13
   - cpu.usage.cpu14
   - cpu.usage.cpu15
+  - cpu.usage.cpu16
+  - cpu.usage.cpu17
+  - cpu.usage.cpu18
+  - cpu.usage.cpu19
+  - cpu.usage.cpu20
+  - cpu.usage.cpu21
+  - cpu.usage.cpu22
+  - cpu.usage.cpu23
   - cpu.usage.summary
   - cpu.voltage
   - all.gpu
@@ -168,7 +184,7 @@ Supported Options:
   - sys.voltage
   - all.sys.voltage
 
-NOTE: Use the "system-sensors" command to see what sensors are available for monitoring on the system.</p>
+NOTE: Use the "phoronix-test-suite system-sensors" command to see what sensors are available for monitoring on the system.</p>
 <h2>Test Timeout</h2>
 <p>This module allows killing a test if it exceeds a defined threshold, such as if the test is hung, etc. TEST_TIMEOUT_AFTER= environment variable can be used for controlling the behavior. When this variable is set, the value will can be set to "auto" or a positive integer. The value indicates the number of minutes until a test run should be aborted, such as for a safeguard against hung/deadlocked processes or other issues. Setting this to a high number as a backup would be recommended for fending off possible hangs / stalls in the testing process if the test does not quit on its own for whatever reason. If the value is "auto", it will quit if the time of a test run exceeds 3x the average time it normally takes the particular test to complete its run.</p>
 <p>This module utilizes the following environment variables: TEST_TIMEOUT_AFTER.</p>

@@ -12,11 +12,11 @@
 		</Package>
 		<Package>
 			<GenericName>sdl-development</GenericName>
-			<PackageName>SDL</PackageName>
+			<PackageName>sdl12-compat</PackageName>
 		</Package>
 		<Package>
 			<GenericName>sdl2-development</GenericName>
-			<PackageName>SDL2</PackageName>
+			<PackageName>sdl2</PackageName>
 		</Package>
                 <Package>
 			<GenericName>golang</GenericName>
@@ -97,7 +97,7 @@
 		</Package>
 		<Package>
 			<GenericName>java</GenericName>
-			<PackageName>java/openjdk11</PackageName>
+			<PackageName>openjdk23</PackageName>
 		</Package>
 		<Package>
 			<GenericName>expat</GenericName>

@@ -118,7 +118,7 @@ class perf_tips extends pts_module_interface
 		if($show_all || in_array('System', $test_hardware_types) || in_array('Processor', $test_hardware_types))
 		{
 			// BELOW ARE CHECKS TO MAKE IF WANTING TO SHOW FOR 'Processor' OR 'System' TESTS
-			$cpu_scaling_governor = phodevi::read_property('cpu', 'scaling-governor');
+			$cpu_scaling_governor = is_file('/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor') ? pts_file_io::file_get_contents('/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor') : false;
 
 			// Linux: Check if scaling governor is available and if it is set to performance
 			if(phodevi::is_linux() && $cpu_scaling_governor && stripos($cpu_scaling_governor, 'performance') === false)
