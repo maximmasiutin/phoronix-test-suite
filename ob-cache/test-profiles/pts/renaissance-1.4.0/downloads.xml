@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/renaissance-benchmarks/renaissance/releases/download/v0.16.0/renaissance-mit-0.16.0.jar</URL>
+      <MD5>b145458ad3a7b59cdf7dc21dbc7b1417</MD5>
+      <SHA256>02cbebf14a886632a6387722365c0c9ec6f0954474254d15319600822e468361</SHA256>
+      <FileName>renaissance-mit-0.16.0.jar</FileName>
+      <FileSize>438610932</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

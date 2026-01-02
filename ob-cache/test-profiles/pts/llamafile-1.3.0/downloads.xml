@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.17/llamafile-bench-0.8.17</URL>
+      <MD5>dd17f074069cc0fb3ce9dfed378992c9</MD5>
+      <SHA256>a8f1e158a72dd69b3e5389192349146221578608770c46fcb1a5cba9360f7973</SHA256>
+      <FileName>llamafile-bench-0.8.17</FileName>
+      <FileSize>8953691</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/Mistral-7B-Instruct-v0.2-llamafile/resolve/772507f9981f04bca0b745027b9a9cf585cb490c/mistral-7b-instruct-v0.2.Q5_K_M.llamafile?download=true</URL>
+      <MD5>991dd4c8a4ca30740854b9dc82286ae1</MD5>
+      <SHA256>f68c1e37d4d2100b9acbf5ccf806461ab6c8e47c351fb69133eb8aa545b06883</SHA256>
+      <FileName>mistral-7b-instruct-v0.2.Q5_K_M.llamafile.86</FileName>
+      <FileSize>5166938210</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/WizardCoder-Python-34B-V1.0-llamafile/resolve/f7bf923573f2d667551d098bb36822571f2b6c11/wizardcoder-python-34b-v1.0.Q6_K.llamafile?download=true</URL>
+      <MD5>4a07ecb839f534f95d7acc25f33f7f01</MD5>
+      <SHA256>97480e6106fdc337ae23e0c7d6d842be260ffb35e0b76d75d3f02e5341294e5a</SHA256>
+      <FileName>wizardcoder-python-34b-v1.0.Q6_K.llamafile.86</FileName>
+      <FileSize>27708232181</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/Llama-3.2-3B-Instruct-llamafile/resolve/fd32939695a41a1dc32b418385f3862b79fac82d/Llama-3.2-3B-Instruct.Q6_K.llamafile?download=true</URL>
+      <MD5>6527e1f694d3c8f0371753afd62da6b6</MD5>
+      <SHA256>6d5ca841cbd0c7f6987bdbf4b3b0fbbc98f39d079e6068e84f284de9001170db</SHA256>
+      <FileName>Llama-3.2-3B-Instruct.Q6_K.llamafile</FileName>
+      <FileSize>2814261409</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/TinyLlama-1.1B-Chat-v1.0-llamafile/resolve/846197003068d371225a5b81649053eaa7ae8ae4/TinyLlama-1.1B-Chat-v1.0.BF16.llamafile?download=true</URL>
+      <MD5>38e5b80664833b4f35332763eff2ad4d</MD5>
+      <SHA256>7060208eb3984ae86a5906134d2df6275ee3f3c05a044e9f3460b200d262fec1</SHA256>
+      <FileName>TinyLlama-1.1B-Chat-v1.0.BF16.llamafile</FileName>
+      <FileSize>2371303518</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

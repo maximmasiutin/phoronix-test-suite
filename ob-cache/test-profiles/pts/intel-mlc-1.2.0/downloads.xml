@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://downloadmirror.intel.com/834254/mlc_v3.11b.tgz</URL>
+      <MD5>acd5e368b87e2a2dcc41ace0f785161f</MD5>
+      <SHA256>5d5abd27d145af59d564c9c53938301a08205f075b9bd41f2f92b4c8efeb2824</SHA256>
+      <FileName>mlc_v3.11b.tgz</FileName>
+      <FileSize>1791648</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

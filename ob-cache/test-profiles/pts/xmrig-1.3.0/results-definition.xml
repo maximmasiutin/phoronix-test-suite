@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>[2025-12-25 18:34:45.021]  miner    speed 10s/60s/15m 13061.3 n/a n/a H/s max #_RESULT_# H/s</OutputTemplate>
+    <LineHint>speed</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>

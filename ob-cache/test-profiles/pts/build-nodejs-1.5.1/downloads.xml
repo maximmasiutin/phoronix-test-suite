@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://nodejs.org/download/release/v24.1.0/node-v24.1.0.tar.xz</URL>
+      <MD5>4f7fedb7727376ee43e0b63186446070</MD5>
+      <SHA256>c8171b2aeccb28c8c5347f273a25adae172fb2a65bc8c975bc22ec58949d0eaf</SHA256>
+      <FileName>node-v24.1.0.tar.xz</FileName>
+      <FileSize>50168800</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

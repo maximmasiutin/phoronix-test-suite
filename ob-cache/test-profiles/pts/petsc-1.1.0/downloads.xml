@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://web.cels.anl.gov/projects/petsc/download/release-snapshots/petsc-3.24.0.tar.gz</URL>
+      <MD5>2e798e2af5676d60132518878d83f842</MD5>
+      <SHA256>cc9063d80cae3ca87dd34586a92bac49613818a0689d9eac1bd91a799c5d0983</SHA256>
+      <FileName>petsc-3.24.0.tar.gz</FileName>
+      <FileSize>16361779</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

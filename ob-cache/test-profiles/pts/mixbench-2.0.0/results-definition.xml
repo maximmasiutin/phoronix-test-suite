@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>          256,    128.250,    3.01, #_RESULT_#  44.53,     64.125,   37.02,  464.95,   7.25,    256.500,    2.80 12286.30,  47.90,   128.250,   11.00, 1564.26,  12.20</OutputTemplate>
+    <MatchToTestArguments>opencl ocl</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Single Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    128.250,    3.01, 5555  44.53,     64.125,   37.02,  #_RESULT_#   7.25,    256.500,    2.80 12286.30,  47.90,   128.250,   11.00, 1564.26,  12.20</OutputTemplate>
+    <MatchToTestArguments>opencl ocl</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Double Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    128.250,    3.01, 5555  44.53,     64.125,   37.02,  555   7.25,    256.500,    2.80 #_RESULT_#  47.90,   128.250,   11.00, 1564.26,  12.20</OutputTemplate>
+    <MatchToTestArguments>opencl ocl</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Half Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    128.250,    3.01, 5555  44.53,     64.125,   37.02,  555   7.25,    256.500,    2.80 5555  47.90,   128.250,   11.00, #_RESULT_#  12.20</OutputTemplate>
+    <MatchToTestArguments>opencl ocl</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GIOPS</ResultScale>
+    <AppendToArgumentsDescription>Integer GIOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, #_RESULT_#  28.07,    256.250,    9.72, 7074.11,  27.61,    128.125,   73.32,  469.08,   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>hip hip</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Single Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, #_RESULT_#  27.61,    128.125,   73.32,  469.08,   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>hip hip</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Packed Single Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  #_RESULT_#   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>hip hip</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Double Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  55555  3.66,    512.500,    4.87, #_RESULT_#  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>hip hip</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Half Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  55555   3.66,    512.500,    4.87  4130.75,  27.57,   256.250,   24.18, #_RESULT_#   5.55</OutputTemplate>
+    <MatchToTestArguments>hip hip</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GIOPS</ResultScale>
+    <AppendToArgumentsDescription>Integer GIOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, #_RESULT_#  28.07,    256.250,    9.72, 7074.11,  27.61,    128.125,   73.32,  469.08,   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>cuda cuda</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Single Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, #_RESULT_#  27.61,    128.125,   73.32,  469.08,   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>cuda cuda</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Packed Single Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  #_RESULT_#   3.66,    512.500,    4.87  14130.75,  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>cuda cuda</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Double Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  55555  3.66,    512.500,    4.87, #_RESULT_#  27.57,   256.250,   24.18, 1422.11,   5.55</OutputTemplate>
+    <MatchToTestArguments>cuda cuda</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GFLOPS</ResultScale>
+    <AppendToArgumentsDescription>Half Precision GFLOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>          256,    256.250,    4.78, 5555  28.07,    256.250,    9.72, 5555  27.61,    128.125,   73.32,  55555   3.66,    512.500,    4.87  4130.75,  27.57,   256.250,   24.18, #_RESULT_#   5.55</OutputTemplate>
+    <MatchToTestArguments>cuda cuda</MatchToTestArguments>
+    <LineHint> 256,</LineHint>
+    <ResultScale>GIOPS</ResultScale>
+    <AppendToArgumentsDescription>Integer GIOPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+  </ResultsParser>
+</PhoronixTestSuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/schbench-20230421.tar.xz</URL>
+      <MD5>a713ea44ac655e3779f19f785dbddb82</MD5>
+      <SHA256>4fff997b3f7e476856eefd3757f898476fa8899e716f78cce13b520169bbe805</SHA256>
+      <FileName>schbench-20230421.tar.xz</FileName>
+      <FileSize>12772</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

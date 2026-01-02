@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-3.tar.gz</URL>
+      <MD5>a782af96816b24692f5f760146112f42</MD5>
+      <SHA256>b16415e8694a2e15e5282d64fc7b358f309ff3a514a90eb5da268676c772de3d</SHA256>
+      <FileName>ImageMagick-7.1.2-3.tar.gz</FileName>
+      <FileSize>15718858</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

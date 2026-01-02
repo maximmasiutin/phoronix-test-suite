@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Llamafile</Title>
+    <AppVersion>0.8.16</AppVersion>
+    <Description>Mozilla's Llamafile allows distributing and running large language models (LLMs) as a single file. Llamafile aims to make open-source LLMs more accessible to developers and users. Llamafile supports a variety of models, CPUs and GPUs, and other options.</Description>
+    <ResultScale>Tokens Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.3.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <EnvironmentSize>40000</EnvironmentSize>
+    <ProjectURL>https://llamafile.ai/</ProjectURL>
+    <RepositoryURL>https://github.com/Mozilla-Ocho/llamafile</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Model</DisplayName>
+      <Identifier>model</Identifier>
+      <ArgumentPrefix>-m </ArgumentPrefix>
+      <Menu>
+        <Entry>
+          <Name>mistral-7b-instruct-v0.2.Q5_K_M</Name>
+          <Value>mistral-7b-instruct-v0.2.Q5_K_M.llamafile.86 -r 15</Value>
+        </Entry>
+        <Entry>
+          <Name>Llama-3.2-3B-Instruct.Q6_K</Name>
+          <Value>Llama-3.2-3B-Instruct.Q6_K.llamafile -r 15</Value>
+        </Entry>
+        <Entry>
+          <Name>TinyLlama-1.1B-Chat-v1.0.BF16</Name>
+          <Value>TinyLlama-1.1B-Chat-v1.0.BF16.llamafile -r 15</Value>
+        </Entry>
+        <Entry>
+          <Name>wizardcoder-python-34b-v1.0.Q6_K</Name>
+          <Value>wizardcoder-python-34b-v1.0.Q6_K.llamafile.86 -r 5</Value>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>test</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Text Generation 16</Name>
+          <Value>-n 16 -p 0</Value>
+        </Entry>
+        <Entry>
+          <Name>Text Generation 128</Name>
+          <Value>-n 128 -p 0</Value>
+        </Entry>
+        <Entry>
+          <Name>Prompt Processing 256</Name>
+          <Value>-n 0 -p 256</Value>
+        </Entry>
+        <Entry>
+          <Name>Prompt Processing 512</Name>
+          <Value>-n 0 -p 512</Value>
+        </Entry>
+        <Entry>
+          <Name>Prompt Processing 1024</Name>
+          <Value>-n 0 -p 1024</Value>
+        </Entry>
+        <Entry>
+          <Name>Prompt Processing 2048</Name>
+          <Value>-n 0 -p 2048</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

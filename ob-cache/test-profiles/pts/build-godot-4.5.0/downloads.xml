@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/godotengine/godot/releases/download/4.5-stable/godot-4.5-stable.tar.xz</URL>
+      <MD5>8e7751c9fcb88c76fde49f3bd70368be</MD5>
+      <SHA256>2cdb383d68bfe646c832064b9063310745e8db03a2e4b59f5946ee934b95c67d</SHA256>
+      <FileName>godot-4.5-stable.tar.xz</FileName>
+      <FileSize>42771064</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

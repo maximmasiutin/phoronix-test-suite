@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://hashcat.net/files/hashcat-7.0.0.7z, https://github.com/hashcat/hashcat/releases/download/v7.0.0/hashcat-7.0.0.7z</URL>
+      <MD5>fff7dbeb4d9d1593e882faaf5c39e1f7</MD5>
+      <SHA256>19e126642e1db7902125072dce539c53485c721735325a747bd03e8af3135d78</SHA256>
+      <FileName>hashcat-7.0.0.7z</FileName>
+      <FileSize>18951516</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mirror.cogentco.com/pub/php/php-8.4.9.tar.xz, http://ftp.ntu.edu.tw/php/distributions/php-8.4.9.tar.xz, http://mirror.internode.on.net/pub/php/php-8.4.9.tar.xz</URL>
+      <MD5>d75afae280822d994593eec91b7d61ec</MD5>
+      <SHA256>3cc22862d2e8a238e099c46ac0cc61afeb4abc872cfa218012c48db3cbd7a23c</SHA256>
+      <FileName>php-8.4.9.tar.xz</FileName>
+      <FileSize>13624380</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

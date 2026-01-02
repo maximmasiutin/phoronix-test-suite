@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Time: #_RESULT_# (Saving: 00:00.03)</OutputTemplate>
+    <LineHint>Time:</LineHint>
+    <ResultAfterString>Time:</ResultAfterString>
+  </ResultsParser>
+</PhoronixTestSuite>

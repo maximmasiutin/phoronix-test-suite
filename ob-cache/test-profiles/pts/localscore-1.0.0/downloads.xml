@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/Mozilla-Ocho/llamafile/releases/download/0.9.3/localscore-0.9.3</URL>
+      <MD5>2d6737d58dbcf0c04557b11c64fc62bc</MD5>
+      <SHA256>193484503156af1db2b5cd76ef6ec6aa84450a5072c5dadeb12cad9f2d47c397</SHA256>
+      <FileName>localscore-0.9.3</FileName>
+      <FileSize>380479144</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/067b946cf014b7c697f3654f621d577a3e3afd1c/Llama-3.2-1B-Instruct-Q4_K_M.gguf?download=true</URL>
+      <MD5>ed67c6a506f90c1f5284cdaa0fec3e13</MD5>
+      <SHA256>6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83</SHA256>
+      <FileName>Llama-3.2-1B-Instruct-Q4_K_M.gguf</FileName>
+      <FileSize>807694464</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/bf5b95e96dac0462e2a09145ec66cae9a3f12067/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf?download=true</URL>
+      <MD5>6eb593f3f5eee264d6c60c186ccc12e0</MD5>
+      <SHA256>7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c</SHA256>
+      <FileName>Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf</FileName>
+      <FileSize>4920739232</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/resolve/05244aa5d871c661c80082a15d3bce44714d068d/Qwen2.5-14B-Instruct-Q4_K_M.gguf?download=true</URL>
+      <MD5>c742b5bff21779c49fa16f08e6653754</MD5>
+      <SHA256>e47ad95dad6ff848b431053b375adb5d39321290ea2c638682577dafca87c008</SHA256>
+      <FileName>Qwen2.5-14B-Instruct-Q4_K_M.gguf</FileName>
+      <FileSize>8988110976</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/unsloth/Qwen3-32B-GGUF/resolve/eaf5bc94f8b3056042a56f3c2558e03828028f00/Qwen3-32B-Q4_K_M.gguf?download=true</URL>
+      <MD5>cc8f1911883bc884d5b788ce1919622d</MD5>
+      <SHA256>8df67573b2c23484e02ec7af295e39bed7ee774f3771d5fda2978265b59370e7</SHA256>
+      <FileName>Qwen3-32B-Q4_K_M.gguf</FileName>
+      <FileSize>19762150048</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

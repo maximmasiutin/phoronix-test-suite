@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/xcompact3d/Incompact3d/archive/refs/tags/v5.0.tar.gz</URL>
+      <MD5>6247f9027735b1fc8fe553ae9b89b7c0</MD5>
+      <SHA256>115433db20739189e5e27e688866c4b0cf2d167137ffb05d2dded8d8d77a42d4</SHA256>
+      <FileName>Incompact3d-5.0.tar.gz</FileName>
+      <FileSize>17033305</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://archive.mariadb.org/mariadb-12.0.0/source/mariadb-12.0.0.tar.gz</URL>
+      <MD5>0dca74a692df12d3c895683a88ed35c4</MD5>
+      <SHA256>c8644506efaa801cb4383f69c085369b79c3f8359262aebc436da7f874956074</SHA256>
+      <FileName>mariadb-12.0.0.tar.gz</FileName>
+      <FileSize>113051152</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

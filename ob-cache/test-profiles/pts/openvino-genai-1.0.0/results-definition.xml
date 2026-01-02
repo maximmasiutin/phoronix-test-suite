@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Generate time: 1000.44 &#xB1; 5.88 ms
+Tokenization time: 0.46 &#xB1; 0.02 ms
+Detokenization time: 0.28 &#xB1; 0.01 ms
+TTFT: 58.72 &#xB1; 0.60 ms
+TPOT: 49.54 &#xB1; 1.00 ms
+Throughput : #_RESULT_# &#xB1; 0.41 tokens/s</OutputTemplate>
+    <ResultScale>tokens/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Load time: 2095.00 ms
+Generate time: 999.02 &#xB1; 1.85 ms
+Tokenization time: 0.44 &#xB1; 0.01 ms
+Detokenization time: 0.26 &#xB1; 0.01 ms
+TTFT: #_RESULT_# &#xB1; 0.16 ms
+TPOT: 49.50 &#xB1; 0.94 ms
+Throughput : 20.20 &#xB1; 0.39 tokens/s</OutputTemplate>
+    <ResultScale>ms</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+    <AppendToArgumentsDescription>Time To First Token</AppendToArgumentsDescription>
+    <Importance>Secondary</Importance>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Load time: 2095.00 ms
+Generate time: 999.02 &#xB1; 1.85 ms
+Tokenization time: 0.44 &#xB1; 0.01 ms
+Detokenization time: 0.26 &#xB1; 0.01 ms
+TTFT: 55.43 &#xB1; 0.16 ms
+TPOT: #_RESULT_# &#xB1; 0.94 ms
+Throughput : 20.20 &#xB1; 0.39 tokens/s</OutputTemplate>
+    <ResultScale>ms</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+    <AppendToArgumentsDescription>Time Per Output Token</AppendToArgumentsDescription>
+    <Importance>Secondary</Importance>
+  </ResultsParser>
+</PhoronixTestSuite>

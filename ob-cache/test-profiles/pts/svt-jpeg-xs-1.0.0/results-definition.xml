@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Finish 450 frames, average #_RESULT_#</OutputTemplate>
+    <LineHint>Finish</LineHint>
+    <StripFromResult>[fps]</StripFromResult>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Latency: min #_MIN_RESULT_# max #_MAX_RESULT_# average #_RESULT_#</OutputTemplate>
+    <StripFromResult>[ms]</StripFromResult>
+    <ResultScale>Latency (ms)</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+    <Importance>Secondary</Importance>
+  </ResultsParser>
+</PhoronixTestSuite>

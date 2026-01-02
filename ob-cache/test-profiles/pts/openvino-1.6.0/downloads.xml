@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/openvino-github-2024.5.tar.xz</URL>
+      <MD5>20f9e34020cdb8f5c4428e4683f37f4b</MD5>
+      <SHA256>ed0d4ea659cdc7b79df786fd4f2504a470f66990cfb8dd659a4908c832ffc0e8</SHA256>
+      <FileName>openvino-github-2024.5.tar.xz</FileName>
+      <FileSize>218688192</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

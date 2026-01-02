@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.neatvideo.com/nb/nv6/NeatBench6_Linux_x64.tgz</URL>
+      <FileName>NeatBench6_Linux_x64.tgz</FileName>
+      <FileSize>6753497</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://www.neatvideo.com/nb/nv6/NeatBench6_Win_x64.zip</URL>
+      <FileName>NeatBench6_Win_x64.zip</FileName>
+      <FileSize>7502293</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://www.neatvideo.com/nb/nv6/NeatBench6_MacOS.zip</URL>
+      <FileName>NeatBench6_MacOS.zip</FileName>
+      <FileSize>2239892</FileSize>
+      <PlatformSpecific>MacOSX</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

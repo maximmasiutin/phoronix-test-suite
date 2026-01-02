@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>TTSIOD 3D Renderer</Title>
+    <AppVersion>2.3h</AppVersion>
+    <Description>A portable GPL 3D software renderer that supports OpenMP and Intel Threading Building Blocks with many different rendering modes while supporting phong rendering with soft-shadow mapping. This version does not use OpenGL but is entirely CPU/software based.</Description>
+    <ResultScale>FPS</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.8.0</Version>
+    <SupportedPlatforms>Linux, MacOSX, BSD</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, sdl-development</ExternalDependencies>
+    <EnvironmentSize>36.2</EnvironmentSize>
+    <ProjectURL>https://github.com/ttsiodras/renderer/</ProjectURL>
+    <RepositoryURL>https://github.com/ttsiodras/renderer</RepositoryURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>-b </Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Scene</DisplayName>
+      <Identifier>scene</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Statue</Name>
+          <Value>-n 30000 statue.ply</Value>
+        </Entry>
+        <Entry>
+          <Name>Dragon Vis</Name>
+          <Value>-n 30000 dragon_vis.ply</Value>
+        </Entry>
+        <Entry>
+          <Name>X-Wing</Name>
+          <Value>-n 30000 x-wing.ply</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

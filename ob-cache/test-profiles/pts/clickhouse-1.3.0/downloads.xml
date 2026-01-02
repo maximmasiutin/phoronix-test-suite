@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ClickHouse/ClickHouse/releases/download/v25.8.7.3-lts/clickhouse-common-static-25.8.7.3-amd64.tgz</URL>
+      <MD5>32aac54a6f2e4a412603aeb897a111f6</MD5>
+      <SHA256>904ca58f57aba53e6b4d2e099559f1b9b0c674e34f332ccaa1a96946e271c4ce</SHA256>
+      <FileName>clickhouse-common-static-25.8.7.3-amd64.tgz</FileName>
+      <FileSize>185609562</FileSize>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/ClickHouse/ClickHouse/releases/download/v25.8.7.3-lts/clickhouse-common-static-25.8.7.3-arm64.tgz</URL>
+      <MD5>fdbf6e97ac58a91268a313cd46ded68b</MD5>
+      <SHA256>681ae7aa161f79e5de614bddca4e0fec93ebdb3306cf11326a1c14caefeb7ed3</SHA256>
+      <FileName>clickhouse-common-static-25.8.7.3-arm64.tgz</FileName>
+      <FileSize>169756880</FileSize>
+      <ArchitectureSpecific>aarch64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>https://datasets.clickhouse.com/hits_compatible/hits.tsv.gz</URL>
+      <MD5>de2f86030d1c86fd39d03468bd90a911</MD5>
+      <SHA256>bd500f777ef0eb55dc9d4f0eb245870351cc44a44d72a56395048d5c15f09fe2</SHA256>
+      <FileName>hits.tsv.gz</FileName>
+      <FileSize>16298506510</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/ClickHouse/ClickBench/archive/d9a1281ca7d2dd6c5144bd801a5ce493c0fe6fa0.zip</URL>
+      <MD5>c9e554e017403f399f3175258e12befa</MD5>
+      <SHA256>6ab8955c8fc0af8946f2b6d5dfdef708eafd89826e3ffa7204f664f256240238</SHA256>
+      <FileName>ClickBench-d9a1281ca7d2dd6c5144bd801a5ce493c0fe6fa0.zip</FileName>
+      <FileSize>627752</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/llvm-21.1.0.src.tar.xz</URL>
+      <MD5>0dfec9ebc392795599649b37bf7ceba9</MD5>
+      <SHA256>0582ee18cb6e93f4e370cb4aa1e79465ba1100408053e1ff8294cef7fb230bd8</SHA256>
+      <FileName>llvm-21.1.0.src.tar.xz</FileName>
+      <FileSize>77773052</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/cmake-21.1.0.src.tar.xz</URL>
+      <MD5>3d8324994acdbd2bfc0f0187db123cc1</MD5>
+      <SHA256>528347c84c3571d9d387b825ef8b07c7ad93e9437243c32173838439c3b6028f</SHA256>
+      <FileName>cmake-21.1.0.src.tar.xz</FileName>
+      <FileSize>8928</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/third-party-21.1.0.src.tar.xz</URL>
+      <MD5>ff159459aa4ff42fc0aea6eb3d240209</MD5>
+      <SHA256>60b3d8c2d1d8d43a705f467299144d232b8061a10541eaa3b0d6eaa2049a462f</SHA256>
+      <FileName>third-party-21.1.0.src.tar.xz</FileName>
+      <FileSize>455852</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

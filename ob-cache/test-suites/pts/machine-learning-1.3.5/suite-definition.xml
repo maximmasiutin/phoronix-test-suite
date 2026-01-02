@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <SuiteInformation>
     <Title>Machine Learning</Title>
-    <Version>1.3.5</Version>
+    <Version>1.3.6</Version>
     <TestType>System</TestType>
     <Description>The machine learning test suite helps to benchmark a system for the popular pattern recognition and computational learning algorithms. Mainly different machine learning / deep learning benchmarks.</Description>
     <Maintainer>Victor Rodriguez</Maintainer>
@@ -114,6 +114,10 @@
   </Execute>
   <Execute>
     <Test>pts/deepsparse</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/xnnpack</Test>
     <Mode>BATCH</Mode>
   </Execute>
 </PhoronixTestSuite>

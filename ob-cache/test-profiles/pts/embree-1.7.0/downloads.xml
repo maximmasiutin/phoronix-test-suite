@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/embree/models/releases/download/release/asian_dragon.zip</URL>
+      <FileName>asian_dragon.zip</FileName>
+      <FileSize>103961493</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/embree/models/releases/download/release/asian_dragon_obj.zip</URL>
+      <FileName>asian_dragon_obj.zip</FileName>
+      <FileSize>157616423</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/embree/models/releases/download/release/crown.zip</URL>
+      <FileName>crown.zip</FileName>
+      <FileSize>68853062</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/RenderKit/embree/releases/download/v4.4.0/embree-4.4.0.sycl.x86_64.linux.tar.gz</URL>
+      <MD5>115d7432e8fbc5bf00dd72fa902abac7</MD5>
+      <SHA256>c67f7e7622584686778e0f84ab7370d810ac5aa020aee2a1c3ae58cea9462e6d</SHA256>
+      <FileName>embree-4.4.0.sycl.x86_64.linux.tar.gz</FileName>
+      <FileSize>117074498</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/RenderKit/embree/releases/download/v4.4.0/embree-4.4.0.x86_64.macosx.zip</URL>
+      <MD5>858cfb9bef9f8159c94941af362687f5</MD5>
+      <SHA256>435b4ef3421eb75cf41a41438d44b760f4d86c24124e0b9a0ed9d85adff54b4d</SHA256>
+      <FileName>embree-4.4.0.x86_64.macosx.zip</FileName>
+      <FileSize>75477415</FileSize>
+      <PlatformSpecific>MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/RenderKit/embree/releases/download/v4.4.0/embree-4.4.0.sycl.x64.windows.zip</URL>
+      <MD5>49baad2c6b28a96de2f706301faca55e</MD5>
+      <SHA256>d2145cdc9c4fa038bbb708be35dae6e526547c53632c6a4a0facae5bf71815c0</SHA256>
+      <FileName>embree-4.4.0.sycl.x64.windows.zip</FileName>
+      <FileSize>112522794</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

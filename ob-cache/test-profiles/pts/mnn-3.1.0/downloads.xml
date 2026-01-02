@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/alibaba/MNN/archive/refs/tags/3.1.0.tar.gz</URL>
+      <MD5>2020c6ec9612c90238283896a0cf6181</MD5>
+      <SHA256>c587d87fdeb645333bb408f64386cc31372d72cbf430e336929e24c46f207239</SHA256>
+      <FileName>MNN-3.1.0.tar.gz</FileName>
+      <FileSize>82248988</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

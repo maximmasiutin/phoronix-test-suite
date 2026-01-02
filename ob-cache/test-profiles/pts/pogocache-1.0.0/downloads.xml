@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/tidwall/pogocache/archive/refs/tags/1.2.0.tar.gz</URL>
+      <MD5>d361179489be018457ab4d0ba0659ae2</MD5>
+      <SHA256>96ba64e90a86c958f926a766979707084b60edb827468ac6f3ca35076dc039dd</SHA256>
+      <FileName>pogocache-1.2.0.tar.gz</FileName>
+      <FileSize>453605</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/RedisLabs/memtier_benchmark/archive/refs/tags/2.2.0.tar.gz</URL>
+      <MD5>0d27052c39642b1139871393566cc48d</MD5>
+      <SHA256>73bcdaca9a5e9c87c6f060637125885f8a01f178061fd67cd05f9da762d3490d</SHA256>
+      <FileName>memtier_benchmark-2.2.0.tar.gz</FileName>
+      <FileSize>336767</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

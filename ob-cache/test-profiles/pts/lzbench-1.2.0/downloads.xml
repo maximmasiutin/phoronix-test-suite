@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/inikep/lzbench/archive/refs/tags/v2.0.1.tar.gz</URL>
+      <MD5>287a1add34164abbe7256ede2ae41e02</MD5>
+      <SHA256>dabf052eb3bf11791c3b8d52316cf5407ac4f03d1c50cea099b1e860bcb684c1</SHA256>
+      <FileName>lzbench-2.0.1.tar.gz</FileName>
+      <FileSize>9474003</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/inikep/lzbench/releases/download/v2.0.1/lzbench201_windows_gcc13.zip</URL>
+      <MD5>a5b1474f11956b878daae58a919d6e6d</MD5>
+      <SHA256>9416fc3138799cd0f2fe5d14b370d8025c4f07665e6d834ef16815a90a106375</SHA256>
+      <FileName>lzbench201_windows_gcc13.zip</FileName>
+      <FileSize>3056310</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.gz, http://mirrors.mit.edu/kernel/linux/kernel/v6.x/linux-6.14.tar.gz</URL>
+      <MD5>a2a8bc6ea9a454840863ccd5eb1db451</MD5>
+      <SHA256>a6dd4538509560777f0f144822d490ed1c3736b915010b4de566ab2d2a7d911e</SHA256>
+      <FileName>linux-6.14.tar.gz</FileName>
+      <FileSize>242477923</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

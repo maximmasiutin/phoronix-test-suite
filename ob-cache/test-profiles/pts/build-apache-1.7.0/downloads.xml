@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://archive.apache.org/dist/httpd/httpd-2.4.63.tar.bz2</URL>
+      <MD5>8b5ee2a61d569a3eacec5778e7f20e13</MD5>
+      <SHA256>88fc236ab99b2864b248de7d49a008ec2afd7551e64dce8b95f58f32f94c46ab</SHA256>
+      <FileName>httpd-2.4.63.tar.bz2</FileName>
+      <FileSize>7517972</FileSize>
+    </Package>
+    <Package>
+      <URL>http://archive.apache.org/dist/apr/apr-1.7.6.tar.bz2</URL>
+      <MD5>2ebb58910e426e5a83af97bc94cae66d</MD5>
+      <SHA256>49030d92d2575da735791b496dc322f3ce5cff9494779ba8cc28c7f46c5deb32</SHA256>
+      <FileName>apr-1.7.6.tar.bz2</FileName>
+      <FileSize>899670</FileSize>
+    </Package>
+    <Package>
+      <URL>http://archive.apache.org/dist/apr/apr-util-1.6.3.tar.bz2</URL>
+      <MD5>b6e8c9b31d938fe5797ceb0d1ff2eb69</MD5>
+      <SHA256>a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5</SHA256>
+      <FileName>apr-util-1.6.3.tar.bz2</FileName>
+      <FileSize>432692</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

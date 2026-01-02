@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>LocalScore</Title>
+    <AppVersion>0.9.3</AppVersion>
+    <Description>LocalScore is an open benchmark for measuring AI performance on CPUs and/or GPUs. GPU/accelerator support currently includes Apple Metal GPUs, NVIDIA GPUs, and AMD GPUs with ROCm. LocalScore builds around the Mozilla Llamafile project for evaluating large language model (LLM) performance.</Description>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux, Windows, MacOSX</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <EnvironmentSize>36000</EnvironmentSize>
+    <ProjectURL>https://www.localscore.ai/</ProjectURL>
+    <RepositoryURL>https://github.com/Mozilla-Ocho/llamafile</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Model</DisplayName>
+      <Identifier>model</Identifier>
+      <ArgumentPrefix>-m </ArgumentPrefix>
+      <Menu>
+        <Entry>
+          <Name>Llama-3.2-1B-Instruct-Q4_K_M.gguf</Name>
+          <Value>Llama-3.2-1B-Instruct-Q4_K_M.gguf</Value>
+          <Message>Tiny Size</Message>
+        </Entry>
+        <Entry>
+          <Name>Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf</Name>
+          <Value>Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf</Value>
+          <Message>Small Size</Message>
+        </Entry>
+        <Entry>
+          <Name>Qwen2.5-14B-Instruct-Q4_K_M.gguf</Name>
+          <Value>Qwen2.5-14B-Instruct-Q4_K_M.gguf</Value>
+          <Message>Medium Size</Message>
+        </Entry>
+        <Entry>
+          <Name>Qwen3-32B-Q4_K_M.gguf</Name>
+          <Value>Qwen3-32B-Q4_K_M.gguf</Value>
+          <Message>Large Size</Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Acceleration</DisplayName>
+      <Identifier>accel</Identifier>
+      <Menu>
+        <Entry>
+          <Name>CPU</Name>
+          <Value>--gpu disabled</Value>
+        </Entry>
+        <Entry>
+          <Name>GPU</Name>
+          <Value>--gpu auto</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

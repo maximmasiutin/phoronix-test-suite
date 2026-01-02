@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>SVT-JPEG-XS</Title>
+    <AppVersion>0.9</AppVersion>
+    <Description>This is a benchmark of the SVT-JPEG-XS open-source JPEG-XS encoder from the Intel Open Visual Cloud. SVT-JPEG-XS makes use of CPU based YUV encoding to JPEG-XS format.</Description>
+    <ResultScale>Frames Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, p7zip, yasm, cmake</ExternalDependencies>
+    <EnvironmentSize>2900</EnvironmentSize>
+    <ProjectURL>https://github.com/OpenVisualCloud/SVT-JPEG-XS/</ProjectURL>
+    <RepositoryURL>https://github.com/OpenVisualCloud/SVT-JPEG-XS</RepositoryURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Input</DisplayName>
+      <Identifier>input</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Bosphorus 1080p</Name>
+          <Value>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080 --input-depth 8 --bpp 5 --colour-format yuv422</Value>
+        </Entry>
+        <Entry>
+          <Name>Bosphorus 4K</Name>
+          <Value>-i Bosphorus_3840x2160.y4m -w 3840 -h 2160 --input-depth 8 --bpp 5 --colour-format yuv422</Value>
+        </Entry>
+        <Entry>
+          <Name>Beauty 4K 10-bit</Name>
+          <Value>-i Beauty_3840x2160_120fps_420_10bit_YUV.yuv -w 3840 -h 2160 --input-depth 10 --bpp 5 --colour-format yuv422</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

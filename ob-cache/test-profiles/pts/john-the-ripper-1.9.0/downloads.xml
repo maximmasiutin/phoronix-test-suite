@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/openwall/john/archive/38cfbe9cc2477a64a233d477d0c45a300fb2f8ed.zip</URL>
+      <MD5>470933e57be77b7a011223634e22c5cf</MD5>
+      <SHA256>373e50fcc28af7b312cadde3cb13fc2282672f8378fce1d7bb3319a90312a6e9</SHA256>
+      <FileName>john-38cfbe9cc2477a64a233d477d0c45a300fb2f8ed.zip</FileName>
+      <FileSize>57572406</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win64.zip, https://download.openwall.net/pub/projects/john/1.9.0/john-1.9.0-jumbo-1-win64.zip</URL>
+      <MD5>7ca6572ac79ea2ffb127f26f0f12f363</MD5>
+      <SHA256>7d59ea68d39a30a4988c9eb751a57d37d3fd90150ceeb6ee9afc2a76d13daa16</SHA256>
+      <FileName>john-1.9.0-jumbo-1-win64.zip</FileName>
+      <FileSize>65376163</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

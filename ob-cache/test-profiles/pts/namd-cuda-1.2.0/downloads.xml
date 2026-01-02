@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.ks.uiuc.edu/Research/namd/3.0.1/download/453167/NAMD_3.0.1_Linux-x86_64-multicore-CUDA.tar.gz</URL>
+      <MD5>c47d7aab89361f2fd6cf9328d2af9c81</MD5>
+      <SHA256>ff712dc8e2ceda8f5b76cf059edfce147886e7a082590ac0dd6638c25b0299b0</SHA256>
+      <FileName>NAMD_3.0.1_Linux-x86_64-multicore-CUDA.tar.gz</FileName>
+      <FileSize>257278276</FileSize>
+    </Package>
+    <Package>
+      <URL>https://www.ks.uiuc.edu/Research/namd/utilities/f1atpase.zip</URL>
+      <MD5>bec570545a4297dc89ac402b8a59753a</MD5>
+      <SHA256>26b37eb20ad532238a85724c43cbaedd58a507ec71ad8a40aff20b98da949fa8</SHA256>
+      <FileName>f1atpase.zip</FileName>
+      <FileSize>28241682</FileSize>
+    </Package>
+    <Package>
+      <URL>https://www.ks.uiuc.edu/Research/namd/benchmarks/systems/stmv_gpu.tar.gz</URL>
+      <MD5>8dcb949aa02b98bb0c4890fd63f09ae8</MD5>
+      <SHA256>45b441035aaef4794fe8c37f6fdb0c9f28eed73828039fb3298f775489fec950</SHA256>
+      <FileName>stmv_gpu.tar.gz</FileName>
+      <FileSize>57126365</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

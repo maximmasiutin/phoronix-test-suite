@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/kdlucas/byte-unixbench/archive/refs/tags/v6.0.0.zip</URL>
+      <MD5>722d6133f0161a9cf1f9946ce4b5aa09</MD5>
+      <SHA256>469fb21c66d2075b0c72702e404137bfd590650231bade4d04f4ebf416fe3d46</SHA256>
+      <FileName>byte-unixbench-6.0.0.zip</FileName>
+      <FileSize>174389</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

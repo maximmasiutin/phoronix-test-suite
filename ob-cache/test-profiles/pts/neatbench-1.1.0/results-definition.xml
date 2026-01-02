@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate> XYZ XYZ XYZ:  #_RESULT_# frames/sec</OutputTemplate>
+    <LineBeforeHint>Best combination:</LineBeforeHint>
+    <ResultBeforeString>frames/sec</ResultBeforeString>
+  </ResultsParser>
+</PhoronixTestSuite>

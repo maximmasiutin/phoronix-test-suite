@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate> ### peak #_RESULT_# GFLOPS</OutputTemplate>
+    <ResultScale>GFLOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Dense Conjugate Gradient Time: #_RESULT_#</OutputTemplate>
+    <LineHint>Gradient Time</LineHint>
+    <StripFromResult>ms</StripFromResult>
+    <ResultScale>ms</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Input Data Size =  2000000. Mean GPU Time: #_RESULT_# ms</OutputTemplate>
+    <LineHint>GPU Time: </LineHint>
+    <StripFromResult>ms</StripFromResult>
+    <ResultScale>ms</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Training time: #_RESULT_#</OutputTemplate>
+    <StripFromResult>s</StripFromResult>
+    <ResultScale>s</ResultScale>
+  </ResultsParser>
+</PhoronixTestSuite>

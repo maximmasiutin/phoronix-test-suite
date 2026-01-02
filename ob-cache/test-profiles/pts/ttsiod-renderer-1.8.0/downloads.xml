@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ttsiodras/renderer/archive/refs/tags/v2.3h.tar.gz</URL>
+      <MD5>b9fcf20417bac96a342ea96e0ef5a6a1</MD5>
+      <SHA256>dcdec0d1663d6a34a635561183030aa44a98cbbdeba6b82e2c6acbd7fe9aac40</SHA256>
+      <FileName>renderer-2.3h.tar.gz</FileName>
+      <FileSize>4132945</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

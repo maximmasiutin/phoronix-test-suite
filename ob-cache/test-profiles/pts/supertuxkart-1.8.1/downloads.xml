@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-linux-x86_64.tar.gz</URL>
+      <MD5>6efd55e9f129628b0ff9eba82c0007c9</MD5>
+      <SHA256>57090b6c2163eb691f20104ae9712204acbb4e8341059dee0a5ff5315efc401b</SHA256>
+      <FileName>SuperTuxKart-1.5-linux-x86_64.tar.gz</FileName>
+      <FileSize>735211939</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-linux-arm64.tar.gz</URL>
+      <MD5>6882d8e4f7ee7e3a3d9dace9048c175b</MD5>
+      <SHA256>961b4b691b44547cdcada7ba39dad1561a6e7e766c90b22ca2df1fa18aa2e477</SHA256>
+      <FileName>SuperTuxKart-1.5-linux-arm64.tar.gz</FileName>
+      <FileSize>734267951</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+      <ArchitectureSpecific>aarch64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-mac-signed.zip</URL>
+      <MD5>ef99ddadec2fad169d1cbc91c0877dc7</MD5>
+      <SHA256>c266acdb8a63a3fe30f52652d9b749f5beba4abeb9e54382fbb934b00c53b303</SHA256>
+      <FileName>SuperTuxKart-1.5-mac-signed.zip</FileName>
+      <FileSize>750212461</FileSize>
+      <PlatformSpecific>MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-win.zip</URL>
+      <MD5>1c5d803221fdb4a3dfb318b341269ecb</MD5>
+      <SHA256>9df7e2d67e8562127a3bb633030f1bd4ee77fa9e7f0ae110897473025af8acdc</SHA256>
+      <FileName>SuperTuxKart-1.5-win.zip</FileName>
+      <FileSize>922430727</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

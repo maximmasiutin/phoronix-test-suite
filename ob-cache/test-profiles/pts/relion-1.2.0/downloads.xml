@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/3dem/relion/archive/refs/tags/5.0.0.tar.gz</URL>
+      <MD5>f2dfc53765e2315233c6dd0df0a374c6</MD5>
+      <SHA256>5d02d529bfdb396204310b35963f35e5ec40ed9fd10bc88c901119ae7d7739fc</SHA256>
+      <FileName>relion-5.0.0.tar.gz</FileName>
+      <FileSize>3645786</FileSize>
+    </Package>
+    <Package>
+      <URL>ftp://ftp.mrc-lmb.cam.ac.uk/pub/scheres/relion_benchmark.tar.gz</URL>
+      <MD5>5cbb5bfdab75fca6bfe05e7848ccf26c</MD5>
+      <SHA256>c7d34a1c98ba956aa0a9b4534921c285c07bab4b9bd8ac3ee1604353c6cccd11</SHA256>
+      <FileName>relion_benchmark.tar.gz</FileName>
+      <FileSize>50671399402</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

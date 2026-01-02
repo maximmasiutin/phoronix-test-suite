@@ -3,10 +3,10 @@
 <PhoronixTestSuite>
   <SuiteInformation>
     <Title>Machine Learning</Title>
-    <Version>1.3.8</Version>
+    <Version>1.3.9</Version>
     <TestType>System</TestType>
     <Description>The machine learning test suite helps to benchmark a system for the popular pattern recognition and computational learning algorithms. Mainly different machine learning / deep learning benchmarks.</Description>
-    <Maintainer>Victor Rodriguez</Maintainer>
+    <Maintainer>Michael Larabel</Maintainer>
   </SuiteInformation>
   <Execute>
     <Test>pts/mnn</Test>
@@ -126,5 +126,8 @@
   </Execute>
   <Execute>
     <Test>pts/llm</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/xnnpack</Test>
   </Execute>
 </PhoronixTestSuite>

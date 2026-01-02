@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/NVIDIA/Q2RTX/releases/download/v1.8.0/q2rtx-1.8.0-linux.tar.gz</URL>
+      <MD5>c26e21dd2ad652792a8237b089413bca</MD5>
+      <SHA256>7467a33056d8c98f9abef6bfdb02a6a2904a311ec669c59a68241cf588f93222</SHA256>
+      <FileName>q2rtx-1.8.0-linux.tar.gz</FileName>
+      <FileSize>1055901424</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/NVIDIA/Q2RTX/releases/download/v1.8.0/q2rtx-1.8.0-windows.exe</URL>
+      <MD5>1a6d019badb899ee8a1084db26e031e6</MD5>
+      <SHA256>c7975c4a07c8bedb7e185d278c21ae7f62a9ffba68e89211efbae44706562384</SHA256>
+      <FileName>q2rtx-1.8.0-windows.exe</FileName>
+      <FileSize>1110219042</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

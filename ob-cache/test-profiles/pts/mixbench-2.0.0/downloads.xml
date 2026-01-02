@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ekondis/mixbench/archive/3dc1cdc27a68680caa4bdab7d89c45543d71363d.zip</URL>
+      <MD5>64b9cc52a43655da22c3110b7eb1f3fd</MD5>
+      <SHA256>bb15f58332dbc990ea003844ee7c9f4fea3faf25efa46b7eb4f08a6c7c40c2ac</SHA256>
+      <FileName>mixbench-3dc1cdc27a68680caa4bdab7d89c45543d71363d.zip</FileName>
+      <FileSize>60967</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

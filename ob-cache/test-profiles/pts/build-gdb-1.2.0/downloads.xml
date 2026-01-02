@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://ftp.gnu.org/gnu/gdb/gdb-16.3.tar.xz, https://sourceware.org/pub/gdb/releases/gdb-16.3.tar.xz</URL>
+      <MD5>f7a7e2d0a6d28622ac69a3623b23876b</MD5>
+      <SHA256>bcfcd095528a987917acf9fff3f1672181694926cc18d609c99d0042c00224c5</SHA256>
+      <FileName>gdb-16.3.tar.xz</FileName>
+      <FileSize>24434444</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

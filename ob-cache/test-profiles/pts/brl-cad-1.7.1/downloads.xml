@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/BRL-CAD/brlcad/archive/refs/tags/rel-7-42-0.tar.gz</URL>
+      <MD5>f31109c8adf2a5dea7c5a196e663b648</MD5>
+      <SHA256>b5d99c81321bbb39b7cba95a9ee7966d57ccf8ab6edf10227e2a211fef402301</SHA256>
+      <FileName>brlcad-rel-7-42-0.tar.gz</FileName>
+      <FileSize>130711953</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/BRL-CAD/brlcad/releases/download/rel-7-42-0/BRL-CAD_7.42.0_Linux_x86_64.tar.bz2</URL>
+      <MD5>f158abda1b1a10244fa3370512a0cb17</MD5>
+      <SHA256>76badb24723020b13975f999c855062d3b8c0b76be5e165ef68ce3044ae0f653</SHA256>
+      <FileName>BRL-CAD_7.42.0_Linux_x86_64.tar.bz2</FileName>
+      <FileSize>415680447</FileSize>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

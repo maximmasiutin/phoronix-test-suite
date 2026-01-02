@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/openvino-github-2025.3.tar.xz</URL>
+      <MD5>b36a3b7905c089d6def1905762ecdefa</MD5>
+      <SHA256>d4e488703560e639a3781ff941bfd8199790f3639d98c9e1a695b36967f8dbbb</SHA256>
+      <FileName>openvino-github-2025.3.tar.xz</FileName>
+      <FileSize>121683872</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/openvinotoolkit/open_model_zoo/archive/refs/tags/2024.6.0.tar.gz</URL>
+      <MD5>6fc5123ea38aaf37d161942a87856835</MD5>
+      <SHA256>342567e7cf7e947548ce7d83e393c959277035c540fdf7d98ac3443757f2f928</SHA256>
+      <FileName>open_model_zoo-2024.6.0.tar.gz</FileName>
+      <FileSize>130918865</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
