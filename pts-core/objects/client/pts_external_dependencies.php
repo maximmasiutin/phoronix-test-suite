@@ -653,6 +653,26 @@ class pts_external_dependencies
 
 		return $titles;
 	}
+	public static function dependencies_to_names($deps)
+	{
+		if($deps instanceof pts_test_profile)
+		{
+			$deps = $deps->get_external_dependencies();
+		}
+
+		$dependency_names = array();
+		$exdep_generic_parser = new pts_exdep_generic_parser();
+		foreach($deps as $dependency)
+		{
+			if($exdep_generic_parser->is_package($dependency))
+			{
+				$package_data = $exdep_generic_parser->get_package_data($dependency);
+				$dependency_names[] = $package_data['title'];
+			}
+		}
+
+		return $dependency_names;
+	}
 }
 
 ?>
