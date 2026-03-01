@@ -164,6 +164,14 @@ class sys_power extends phodevi_sensor
 				return true;
 			}
 		}
+		$corsairpsu_power = phodevi_linux_parser::read_sysfs_node('/sys/class/hwmon/hwmon*/power1_input', 'POSITIVE_NUMERIC', array('name' => 'corsairpsu'), 1, true);
+		if($corsairpsu_power != -1)
+		{
+			// Corsair PSU driver
+			self::$hwmon_power_meter = $corsairpsu_power;
+			return true;
+		}
+
 	}
 	public function read_sensor()
 	{

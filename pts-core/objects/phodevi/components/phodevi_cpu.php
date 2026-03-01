@@ -1574,7 +1574,7 @@ class phodevi_cpu extends phodevi_device_interface
 		{
 			return $intel_map[$family][$model];
 		}
-		if(isset($other_map[$family][$model]))
+		if($family != null && $model != null && isset($other_map[$family][$model]))
 		{
 			return $other_map[$family][$model];
 		}
